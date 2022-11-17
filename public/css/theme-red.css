@@ -55,6 +55,7 @@
     /* --color-primary-alpha-80: rgba(205,4,28,0.8); */
     /* --color-primary-alpha-90: rgba(205,4,28,0.8823529411764706); */
     --color-background: #fcfcfc;
+    --color-secondary-alpha-70: #dedede4d;
 }
 
 /* body, footer {
