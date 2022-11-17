@@ -27,36 +27,36 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background: #cb1b30!important
-}
+} */
 
 :root {
     --color-primary: #cd041c;
-    --color-primary-dark-1: #ba0318;
+    /* --color-primary-dark-1: #ba0318; */
     --color-primary-dark-2: #ab0316;
     --color-primary-dark-3: #960314;
     --color-primary-dark-4: #870312;
-    --color-primary-dark-5: #75020f;
+    /* --color-primary-dark-5: #75020f; */
     --color-primary-dark-6: #5f020d;
-    --color-primary-dark-7: #460109;
-    --color-primary-light-1: #d1152b;
+    /* --color-primary-dark-7: #460109; */
+    /* --color-primary-light-1: #d1152b; */
     --color-primary-light-2: #ce2236;
-    --color-primary-light-3: #d02f42;
+    /* --color-primary-light-3: #d02f42; */
     --color-primary-light-4: #d54455;
-    --color-primary-light-5: #dd5565;
-    --color-primary-light-6: #e16674;
-    --color-primary-light-7: #ee7c89;
-    --color-primary-alpha-10: rgba(205,4,28,0.09803921568627451);
-    --color-primary-alpha-20: rgba(205,4,28,0.2);
-    --color-primary-alpha-30: rgba(205,4,28,0.29411764705882354);
-    --color-primary-alpha-40: rgba(205,4,28,0.4);
-    --color-primary-alpha-50: rgba(205,4,28,0.5019607843137255);
-    --color-primary-alpha-60: rgba(205,4,28,0.6);
-    --color-primary-alpha-70: rgba(205,4,28,0.7019607843137254);
-    --color-primary-alpha-80: rgba(205,4,28,0.8);
-    --color-primary-alpha-90: rgba(205,4,28,0.8823529411764706);
+    /* --color-primary-light-5: #dd5565; */
+    /* --color-primary-light-6: #e16674; */
+    /* --color-primary-light-7: #ee7c89; */
+    /* --color-primary-alpha-10: rgba(205,4,28,0.09803921568627451); */
+    /* --color-primary-alpha-20: rgba(205,4,28,0.2); */
+    /* --color-primary-alpha-30: rgba(205,4,28,0.29411764705882354); */
+    /* --color-primary-alpha-40: rgba(205,4,28,0.4); */
+    /* --color-primary-alpha-50: rgba(205,4,28,0.5019607843137255); */
+    /* --color-primary-alpha-60: rgba(205,4,28,0.6); */
+    /* --color-primary-alpha-70: rgba(205,4,28,0.7019607843137254); */
+    /* --color-primary-alpha-80: rgba(205,4,28,0.8); */
+    /* --color-primary-alpha-90: rgba(205,4,28,0.8823529411764706); */
 }
 
-body, footer {
+/* body, footer {
     background: #e2e2e2
 }
 
