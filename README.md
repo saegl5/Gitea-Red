@@ -1,26 +1,41 @@
-# Gitea-Red-Silver
+# Gitea-Red
 
-Lite theme, yet not as much strain on the eyes as a bright or dark theme with red as main color.
+Soft, lite red theme. Rebased from Gitea's default theme with some colors from Gitea-Red-Silver fork. Compatible with Dark Reader. If you miss the silver color, you can alternatively use Dark Reader to dim website colors.
 
 ## Directions
 
-01. Find out where where your custom directory is (Site Administration, Configuration, Custom File Root Path)
-02. Verify there is no public folder within the custom folder
-03. If there is a public folder already there, make sure that both the css and img directories are created
-04. If they do not exist, create them
-05. To add just the theme and not use the red Gitea logos, copy theme-redsilver.css into the \path\to\custom\public\css folder
-06. If you want to use the logos, make a backup of your existing img folder with `cp -a img img.bak`
-07. Copy all of the logos from public/img into your img folder
-08. Tell Gitea there is a new theme by editing or adding the app.ini file [ui] section:
-```
-[ui]
-THEMES        = gitea,arc-green,redsilver
-DEFAULT_THEME = redsilver
-```
+01. Locate your custom directory: Site Administration > Configuration > Custom File Root Path (e.g., /var/lib/gitea/custom)
+02. Verify if a public directory exists within the custom directory
+03. If the public directory exists, make sure it contains two directories: css and img
+04. If the css and img directories do not exist, then create them
+05. To add just the theme (not the red Gitea logos), copy [theme-red.css](./public/css/theme-red.css) into the css directory
+06. To add the red Gitea logos, backup any existing img directory, and copy all the [logos](./public/img/) into your img directory
+07. Locate your configuration file: Site Administration > Configuration > Configuration File Path (e.g., /etc/gitea/app.ini)
+08. Add to the configuration file:
+    ```ini
+    [ui]
+    THEMES = gitea,arc-green,red
+    DEFAULT_THEME = red
+    THEME_COLOR_META_TAG = none
+    ```
+09. Restart Gitea
 
 ## Photos
 
-<!--[![gitea-redsilver-01.png](https://pix.dou.bet/images/2020/09/22/gitea-redsilver-01.png)](https://pix.dou.bet/image/gKGN)-->
-[![gitea-redsilver-04.png](https://pix.dou.bet/images/2020/09/28/gitea-redsilver-04.png)](https://pix.dou.bet/image/gLER)
-[![gitea-redsilver-02.png](https://pix.dou.bet/images/2020/09/22/gitea-redsilver-02.png)](https://pix.dou.bet/image/g2w7)
-[![gitea-redsilver-03.png](https://pix.dou.bet/images/2020/09/22/gitea-redsilver-03.png)](https://pix.dou.bet/image/g4vn)
+[![home_lite.png](./screenshots/home_lite.png)](./screenshots/home_lite.png)
+[![repo_lite.png](./screenshots/repo_lite.png)](./screenshots/repo_lite.png) \
+(redacted)
+
+Using Dark Reader web browser extension:
+[![home_dark.png](./screenshots/home_dark.png)](./screenshots/home_dark.png) \
+Using Dark Reader web browser extension:
+[![repo_dark.png](./screenshots/repo_dark.png)](./screenshots/repo_dark.png) \
+(redacted)
+
+## Known Issues
+
+- [x] ~~When you overscroll, still see green color~~ (added `THEME_COLOR_META_TAG` to app.ini)
+- [x] ~~With Dark Reader, not the entire page is the same color~~ (replaced `body{}` with `.full.height{}` in theme-red.css)
+- [x] Directories sometimes turn blue (~~testing a fix~~ because of Dark Reader and you cleared your browser history, just refresh browser)
+
+Theme coded with &#9829; in VSCodium
