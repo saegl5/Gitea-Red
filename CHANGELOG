@@ -1,0 +1,21 @@
+Nov 16, 2022 · adopted colors and codes from fork, added/edited others
+
+    Originally, just rebased from Gitea's default theme and adopted some colors from Gitea-Red-Silver.
+    This is, did not review theme-redsilver.css line by line.
+
+    This time around, I did.
+    Saying this hoping that, whoever views the commits, does not mistakenly believe that coding was that clean or simple.
+    Attempted changes using Safari's developer mode, and tested them by updating theme-red.css and restarting Gitea; I repeated this procedure several times.
+
+    In doing so, some codes were rewritten (e.g., color in .home a {}), added (e.g., .full.height {}), or removed (e.g., ::-webkit-scrollbar {}).
+    Some codes were added but then removed (e.g., ::selection {}), whereas some were refined (e.g., .home .hero .svg {} to .home .svg {}).
+    For some codes, I could not find a usage case for (e.g., --color-primary-dark-1).
+
+    Removed changes to: scrollbar, header, dividers, input elements, activity bar graph, labels, and breadcrumbs. 
+    Changing heatmap colors using :root {}
+    File folders color uses --color-primary
+
+    Lastly, you do not always need !important (e.g., for colors in :root {}).
+    In fact, sometimes you cannot use !important (e.g., I could not use !important for .ui.tabular.menu because it would clash with !important in .ui.secondary.tabular.menu).
+    To circumvent that, be more specific (e.g., instead of .ui.tabular.menu {}, input .ui.tabular.stackable.menu.navbar {}).
+    Of course, being more specific may result in other related attributes not changing. So, be sure to retest any change.
