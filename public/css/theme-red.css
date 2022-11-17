@@ -1,5 +1,3 @@
-/* not changing scrollbar */
-
 :root {
     --color-primary: #cd041c!important; /* greater contributions heatmap, primary email address label, Regenerate Scratch Token, and more (below) */
     --color-primary-dark-2: #ab0316!important; /* greater contributions heatmap and more (below) */
@@ -17,8 +15,6 @@
     background-color: var(--color-background)!important; /* make some elements pop out more (e.g., Sign In box, Two-Factor Authentication boxes, Repositories list, Settings boxes, Search boxes) */
 }
 
-/* not changing header or footer */
-
 .home a {
     color: var(--color-primary)!important; /* link and link hover color on home page, other links use --color-primary */
 }
@@ -30,8 +26,6 @@
 span.green .svg {
     color: var(--color-primary)!important; /* ssh/gpg key icon color */
 }
-
-/* not changing dividers */
 
 .ui.green.button {
     background-color: var(--color-primary)!important; /* "green" button color (e.g., Sign In, Verify), primary buttons use --color-primary */
@@ -54,11 +48,6 @@ span.green .svg {
     color: var(--color-body)!important; /* text color overrides text color for some other buttons (e.g., commit Actions) */
 }
 
-/* not changing input elements */
-/* changing heatmap using :root */
-/* not changing activity bar graph */
-/* not changing labels */
-
 .ui.tabular.stackable.menu.navbar .active.item {
     background-color: var(--color-background)!important; /* make tabular menu item background match --color-background */
 }
@@ -66,9 +55,6 @@ span.green .svg {
 .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item {
     background: unset!important; /* do not color secondary menu item, includes stackable ones */
 }
-
-/* file folders color use --color-primary */
-/* not changing breadcrumbs */
 
 .ui.vertical.menu {
     background: unset!important; /* make issues, pull requests and milestones menus background match --color-background */
