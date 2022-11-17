@@ -1,4 +1,4 @@
-Nov 16, 2022 · adopted colors and codes from fork, added/edited others
+Nov 16, 2022 · forked, rebased theme from Gitea's default theme, adopted colors and codes from fork, added/edited others
 
     Originally, just rebased from Gitea's default theme and adopted some colors from Gitea-Red-Silver.
     This is, did not review theme-redsilver.css line by line.
