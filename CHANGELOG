@@ -19,3 +19,5 @@ Nov 16, 2022 · forked, rebased theme from Gitea's default theme, adopted colors
     In fact, sometimes you cannot use !important (e.g., I could not use !important for .ui.tabular.menu because it would clash with !important in .ui.secondary.tabular.menu).
     To circumvent that, be more specific (e.g., instead of .ui.tabular.menu {}, input .ui.tabular.stackable.menu.navbar {}).
     Of course, being more specific may result in other related attributes not changing. So, be sure to retest any change.
+
+Nov 17, 2022 · changed row highlight color

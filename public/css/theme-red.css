@@ -59,3 +59,7 @@ span.green .svg {
 .ui.vertical.menu {
     background: unset!important; /* make issues, pull requests and milestones menus background match --color-background */
 }
+
+#repo-files-table tr:hover {
+    background-color: var(--color-secondary-alpha-70)!important; /* row highlight color */
+}
