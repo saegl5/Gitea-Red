@@ -49,7 +49,7 @@ span.green .svg {
 }
 
 .ui.tabular.stackable.menu.navbar .active.item {
-    background-color: var(--color-background)!important; /* make tabular menu item background match --color-background */
+    background-color: var(--color-background)!important; /* make repo tabular menu item background match --color-background */
 }
 
 .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item {
@@ -62,4 +62,16 @@ span.green .svg {
 
 #repo-files-table tr:hover {
     background-color: var(--color-secondary-alpha-70)!important; /* row highlight color */
+}
+
+.ui.top.attached.pull.tabular.stackable.menu .active.item {
+    background-color: var(--color-background)!important; /* make pull requests top tabular menu item background match --color-background */
+}
+
+.ui.top.tabular.menu .active.write.item {
+    background-color: var(--color-background)!important; /* make new release tabular menu item background match --color-background */
+}
+
+.repository .diff-detail-box {
+    background: unset!important; /* make diff-detail-box background match --color-background */
 }
