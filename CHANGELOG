@@ -22,15 +22,3 @@ Nov 16, 2022 · forked, rebased theme from Gitea's default theme, adopted colors
 
 Nov 17, 2022 · changed row highlight color
 Nov 18, 2022 · made pull requests and new releases menu item and .diff-detail-box background match --color-background
-
-.ui.top.attached.pull.tabular.stackable.menu .active.item {
-    background-color: var(--color-background)!important; /* make pull requests top tabular menu item background match --color-background */
-}
-
-.ui.top.tabular.menu .active.write.item {
-    background-color: var(--color-background)!important; /* make new releases tabular menu item background match --color-background */
-}
-
-.repository .diff-detail-box {
-    background: unset!important; /* make diff-detail-box background match --color-background */
-}
