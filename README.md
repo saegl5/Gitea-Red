@@ -1,6 +1,6 @@
 # Gitea-Red
 
-Soft, lite red theme. Utilizes Gitea's default theme but with some colors from the Gitea-Red-Silver fork. Compatible with Dark Reader. If you miss the silver color, you can alternatively use Dark Reader to dim website colors.
+Soft, lite red theme. Utilizes Gitea's default theme but with some colors and images from the Gitea-Red-Silver fork. Compatible with Dark Reader. If you miss the silver color, you can alternatively use Dark Reader to dim website colors.
 
 ## Directions
 
