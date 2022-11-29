@@ -36,6 +36,6 @@ Using Dark Reader web browser extension:
 
 - [x] ~~When you overscroll, still see green color~~ (added `THEME_COLOR_META_TAG` to app.ini)
 - [x] ~~With Dark Reader, not the entire page is the same color~~ (replaced `body{}` with `.full.height{}` in theme-red.css)
-- [x] Directories sometimes turn blue (~~testing a fix~~ because of Dark Reader and you cleared your browser history, just refresh browser)
+- [x] Directories sometimes turn blue (~~testing a fix~~ because of Dark Reader ~~and you cleared your browser history~~, just refresh browser page)
 
 Theme coded with &#9829; in VSCodium
