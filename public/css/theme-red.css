@@ -9,6 +9,7 @@
     --color-primary-light-4: #d54455!important; /* greater contributions heatmap */
     --color-background: #fcfcfc!important; /* make some elements pop out more (below)  */
     --color-secondary-alpha-70: #dedede4d!important; /* fewer contributions heatmap */
+    --fonts-monospace: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace, var(--fonts-emoji)!important; /* replaced "SFMono-Regular" */
 }
 
 .full.height {
