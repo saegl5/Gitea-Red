@@ -24,3 +24,4 @@ Nov 17, 2022 · changed row highlight color
 Nov 18, 2022 · made pull requests and new releases menu item and .diff-detail-box background match --color-background
 Nov 29, 2022 · made collapsible elements easier to distinguish from main body
 Dec 12, 2022 · fixed monospace font to display SF Mono in Safari on macOS
+Dec 19, 2022 · for clone url border, used same color as surrounding buttons' border

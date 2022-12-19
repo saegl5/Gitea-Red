@@ -82,3 +82,8 @@ details {
     border-radius: 4px; /* same as code blocks */
     padding: .2em .4em; /* same as code blocks */
 }
+
+.js-clone-url {
+    border: 1px solid var(--color-light-border)!important; /* use same border color as surrounding buttons */
+    border-right: none!important; /* border already there */
+}
