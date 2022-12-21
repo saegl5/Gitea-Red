@@ -26,3 +26,4 @@ Nov 29, 2022 · made collapsible elements easier to distinguish from main body
 Dec 12, 2022 · fixed monospace font to display SF Mono in Safari on macOS
 Dec 19, 2022 · for clone url border, used same color as surrounding buttons' border
 Dec 20, 2022 · ran `make generate-images` to generate logo
+Dec 21, 2022 · regenerated images and pruned redundant ones
