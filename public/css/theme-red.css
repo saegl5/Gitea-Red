@@ -87,3 +87,8 @@ details {
     border: 1px solid var(--color-light-border)!important; /* use same border color as surrounding buttons */
     border-right: none!important; /* border already there */
 }
+
+.color-preview {
+    display: unset!important; /* remove little color preview square */
+    margin-left: unset!important; /* remove subsequently redundant margin */
+}
