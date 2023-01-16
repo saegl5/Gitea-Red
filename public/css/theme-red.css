@@ -1,80 +1,80 @@
 :root {
-    --color-primary: #cd041c!important; /* greater contributions heatmap, primary email address label, Regenerate Scratch Token, and more (below) */
-    --color-primary-dark-2: #ab0316!important; /* greater contributions heatmap and more (below) */
-    --color-primary-dark-3: #960314!important; /* dropdown actions button */
-    --color-primary-dark-4: #870312!important; /* red buttons */
-    --color-primary-dark-6: #5f020d!important; /* red buttons hover */
-    --color-primary-light-1: #d1152b!important; /* selection color */
-    --color-primary-light-2: #ce2236!important; /* greater contributions heatmap */
-    --color-primary-light-4: #d54455!important; /* greater contributions heatmap */
-    --color-background: #fcfcfc!important; /* make some elements pop out more (below)  */
-    --color-secondary-alpha-70: #dedede4d!important; /* fewer contributions heatmap */
-    --fonts-monospace: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace, var(--fonts-emoji)!important; /* replaced "SFMono-Regular" */
+    --color-primary: #cd041c !important; /* greater contributions heatmap, primary email address label, Regenerate Scratch Token, and more (below) */
+    --color-primary-dark-2: #ab0316 !important; /* greater contributions heatmap and more (below) */
+    --color-primary-dark-3: #960314 !important; /* dropdown actions button */
+    --color-primary-dark-4: #870312 !important; /* red buttons */
+    --color-primary-dark-6: #5f020d !important; /* red buttons hover */
+    --color-primary-light-1: #d1152b !important; /* selection color */
+    --color-primary-light-2: #ce2236 !important; /* greater contributions heatmap */
+    --color-primary-light-4: #d54455 !important; /* greater contributions heatmap */
+    --color-background: #fcfcfc !important; /* make some elements pop out more (below)  */
+    --color-secondary-alpha-70: #dedede4d !important; /* fewer contributions heatmap */
+    --fonts-monospace: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace, var(--fonts-emoji) !important; /* replaced "SFMono-Regular" */
 }
 
 .full.height {
-    background-color: var(--color-background)!important; /* make some elements pop out more (e.g., Sign In box, Two-Factor Authentication boxes, Repositories list, Settings boxes, Search boxes) */
+    background-color: var(--color-background) !important; /* make some elements pop out more (e.g., Sign In box, Two-Factor Authentication boxes, Repositories list, Settings boxes, Search boxes) */
 }
 
 .home a {
-    color: var(--color-primary)!important; /* link and link hover color on home page, other links use --color-primary */
+    color: var(--color-primary) !important; /* link and link hover color on home page, other links use --color-primary */
 }
 
 .home .svg {
-    color: var(--color-primary)!important; /* icons' color on home page */
+    color: var(--color-primary) !important; /* icons' color on home page */
 }
 
 span.green .svg {
-    color: var(--color-primary)!important; /* ssh/gpg key icon color */
+    color: var(--color-primary) !important; /* ssh/gpg key icon color */
 }
 
 .ui.green.button {
-    background-color: var(--color-primary)!important; /* "green" button color (e.g., Sign In, Verify), primary buttons use --color-primary */
+    background-color: var(--color-primary) !important; /* "green" button color (e.g., Sign In, Verify), primary buttons use --color-primary */
 }
 
 .ui.red.button {
-    background-color: var(--color-primary-dark-4)!important; /* red button color (e.g., Confirm Deletion, Remove) */
-    color: var(--color-body)!important; /* text color overrides text color for some buttons (e.g., Transfer Ownership) */
+    background-color: var(--color-primary-dark-4) !important; /* red button color (e.g., Confirm Deletion, Remove) */
+    color: var(--color-body) !important; /* text color overrides text color for some buttons (e.g., Transfer Ownership) */
 }
 
 .ui.green.button:hover, .ui.green.button:active {
-    background-color: var(--color-primary-dark-2)!important; /* "green" button hover color, only this one has active element, primary buttons use --color-primary-dark-2 */
+    background-color: var(--color-primary-dark-2) !important; /* "green" button hover color, only this one has active element, primary buttons use --color-primary-dark-2 */
 }
 
 .ui.red.button:hover {
-    background-color: var(--color-primary-dark-6)!important; /* red button hover color */
+    background-color: var(--color-primary-dark-6) !important; /* red button hover color */
 }
 
 .ui.active.button:hover, .ui.active.button:active {
-    color: var(--color-body)!important; /* text color overrides text color for some other buttons (e.g., commit Actions) */
+    color: var(--color-body) !important; /* text color overrides text color for some other buttons (e.g., commit Actions) */
 }
 
 .ui.tabular.stackable.menu.navbar .active.item {
-    background-color: var(--color-background)!important; /* make repo tabular menu item background match --color-background */
+    background-color: var(--color-background) !important; /* make repo tabular menu item background match --color-background */
 }
 
 .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item {
-    background: unset!important; /* do not color secondary menu item, includes stackable ones */
+    background: unset !important; /* do not color secondary menu item, includes stackable ones */
 }
 
 .ui.vertical.menu {
-    background: unset!important; /* make issues, pull requests and milestones menus background match --color-background */
+    background: unset !important; /* make issues, pull requests and milestones menus background match --color-background */
 }
 
 #repo-files-table tr:hover {
-    background-color: var(--color-secondary-alpha-70)!important; /* row highlight color */
+    background-color: var(--color-secondary-alpha-70) !important; /* row highlight color */
 }
 
 .ui.top.attached.pull.tabular.stackable.menu .active.item {
-    background-color: var(--color-background)!important; /* make pull requests top tabular menu item background match --color-background */
+    background-color: var(--color-background) !important; /* make pull requests top tabular menu item background match --color-background */
 }
 
 .ui.top.tabular.menu .active.write.item {
-    background-color: var(--color-background)!important; /* make new release tabular menu item background match --color-background */
+    background-color: var(--color-background) !important; /* make new release tabular menu item background match --color-background */
 }
 
 .repository .diff-detail-box {
-    background: unset!important; /* make diff-detail-box background match --color-background */
+    background: unset !important; /* make diff-detail-box background match --color-background */
 }
 
 details {
@@ -84,11 +84,11 @@ details {
 }
 
 .js-clone-url {
-    border: 1px solid var(--color-light-border)!important; /* use same border color as surrounding buttons */
-    border-right: none!important; /* border already there */
+    border: 1px solid var(--color-light-border) !important; /* use same border color as surrounding buttons */
+    border-right: none !important; /* border already there */
 }
 
 .color-preview {
-    display: unset!important; /* remove little color preview square */
-    margin-left: unset!important; /* remove subsequently redundant margin */
+    display: unset !important; /* remove little color preview square */
+    margin-left: unset !important; /* remove subsequently redundant margin */
 }
