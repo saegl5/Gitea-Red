@@ -92,3 +92,7 @@ details {
     display: unset !important; /* remove little color preview square */
     margin-left: unset !important; /* remove subsequently redundant margin */
 }
+
+.markup table tr:nth-child(2n) {
+    background-color: unset !important; /* remove background color of alternating table rows, since distracting if such rows contain codes */
+}
