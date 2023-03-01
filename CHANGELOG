@@ -30,3 +30,4 @@ Dec 21, 2022 · regenerated images and pruned redundant ones
 Jan 15, 2023 · removed little color preview squares
 Feb 6, 2023 · removed background color of alternating table rows, since distracting if such rows contain codes
 Feb 28, 2023 · added "auto" to THEMES list
+Mar 1, 2023 · added dark theme and auto theme to mitigate current and any future issues with Dark Reader
