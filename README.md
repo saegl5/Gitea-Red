@@ -14,8 +14,8 @@ Soft, lite red theme. Utilizes Gitea's default theme but with some colors and im
 08. Add to the configuration file:
     ```ini
     [ui]
-    THEMES = auto,gitea,arc-green,red
-    DEFAULT_THEME = red
+    THEMES = auto,gitea,arc-green,auto-red,red,arc-red
+    DEFAULT_THEME = auto-red
     THEME_COLOR_META_TAG = none
     ```
 09. Restart Gitea
