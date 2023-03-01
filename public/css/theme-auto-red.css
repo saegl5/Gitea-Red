@@ -15,7 +15,7 @@
         --fonts-monospace: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace, var(--fonts-emoji) !important; /* replaced "SFMono-Regular" */
     }
 
-    .full.height { /* legacy code */
+    .full.height { /* legacy code to fix issue with Dark Reader not displaying the entire page with the same color */
         background-color: var(--color-background) !important; /* make some elements pop out more (e.g., Sign In box, Two-Factor Authentication boxes, Repositories list, Settings boxes, Search boxes) */
     }
 
