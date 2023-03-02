@@ -1,6 +1,7 @@
-/* source: https://github.com/go-gitea/gitea/blob/main/web_src/less/themes/theme-arc-green.less */
+/* root and emoji source: https://github.com/go-gitea/gitea/blob/main/web_src/less/themes/theme-arc-green.less */
+/* some root colors and one alpha are customized */
 /* custom colors are slightly brighter */
-/* custom alpha is slightly lower */
+/* custom alpha is slightly more transparent */
 
 :root {
     --is-dark-theme: true;
