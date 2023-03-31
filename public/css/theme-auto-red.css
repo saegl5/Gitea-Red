@@ -5,7 +5,7 @@
         --color-primary: #cd041c !important; /* greater contributions heatmap, primary email address label, Regenerate Scratch Token, and more (below) */
         --color-primary-dark-2: #ab0316 !important; /* greater contributions heatmap and more (below) */
         --color-primary-dark-3: #960314 !important; /* dropdown actions button */
-        --color-primary-dark-4: #870312 !important; /* red buttons */
+        --color-primary-dark-4: #870312 !important; /* red buttons and greater contributions heatmap */
         --color-primary-dark-6: #5f020d !important; /* red buttons hover */
         --color-primary-light-1: #d1152b !important; /* selection color */
         --color-primary-light-2: #ce2236 !important; /* greater contributions heatmap */
@@ -114,7 +114,7 @@
         --color-primary-dark-1: #93b373;
         --color-primary-dark-2: #c40319 !important; /* greater contributions heatmap and more (below) */
         --color-primary-dark-3: #b00317 !important; /* dropdown actions button */
-        --color-primary-dark-4: #a10315 !important; /* red buttons */
+        --color-primary-dark-4: #a10315 !important; /* red buttons and greater contributions heatmap */
         --color-primary-dark-5: #cfddc1;
         --color-primary-dark-6: #780310 !important; /* red buttons hover */
         --color-primary-dark-7: #f8faf6;
