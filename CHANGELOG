@@ -31,3 +31,4 @@ Jan 15, 2023 · removed little color preview squares
 Feb 6, 2023 · removed background color of alternating table rows, since distracting if such rows contain codes
 Feb 28, 2023 · added "auto" to THEMES list
 Mar 1, 2023 · added dark theme and auto theme to mitigate current and any future issues with Dark Reader
+May 3, 2023 · `THEME_COLOR_META_TAG = none` no longer required, as of Gitea 1.19.2

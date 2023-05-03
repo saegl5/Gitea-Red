@@ -16,7 +16,6 @@ Soft, lite and dark red theme. Utilizes Gitea's default themes but with some col
     [ui]
     THEMES = auto,gitea,arc-green,auto-red,red,arc-red
     DEFAULT_THEME = auto-red
-    THEME_COLOR_META_TAG = none
     ```
 09. Restart Gitea
 
