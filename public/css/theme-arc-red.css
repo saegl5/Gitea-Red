@@ -278,3 +278,7 @@ details {
 .markup table tr:nth-child(2n) {
     background-color: unset !important; /* remove background color of alternating table rows, since distracting if such rows contain codes */
 }
+
+.added-code {
+    background: unset !important; /* remove highlight behind some codes */
+}
