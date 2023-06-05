@@ -33,4 +33,8 @@ Arc-Red <sup><b>NEW!</b></sup> \
 
 > Disable the Dark Reader web browser extension for your website.
 
+## Known Issue
+
+- [] Checkmark is not displayed, when fork a repository and select "Make Repository Private." I submitted an issue: [https://github.com/go-gitea/gitea/issues/25076](https://github.com/go-gitea/gitea/issues/25076)
+
 Theme coded with &#9829; in VSCodium
