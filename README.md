@@ -25,7 +25,7 @@ Red (Original) \
 <img src='./screenshots/home_lite.png' alt="home lite" width="704"/> \
 <img src='./screenshots/repo_lite.png' alt="repo lite" width="704"/>
 
-Arc-Red <sup><b>NEW!</b></sup> \
+Arc-Red \
 <img src='./screenshots/home_dark.png' alt="home dark" width="704"/> \
 (redacted) \
 <img src='./screenshots/repo_dark.png' alt="repo dark" width="704"/> \
