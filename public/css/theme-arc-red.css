@@ -282,3 +282,15 @@ details {
 .added-code {
     background: unset !important; /* remove highlight behind some codes */
 }
+
+.ui.table>thead>tr>th {
+    border-inline: 1px solid var(--color-box-header) !important; /* hide center border more between table header columns */
+}
+
+.ui.table>thead>tr:first-child>th:first-child {
+    border-radius: .22rem 0 0 !important; /* remove tiny empty space between table header corner and table border */
+}
+
+.ui.table>thead>tr:first-child>th:last-child {
+    border-radius: 0 .22rem 0 0 !important; /* remove tiny empty space between table header corner and table border */
+}
