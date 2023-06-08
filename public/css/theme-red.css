@@ -34,7 +34,7 @@ span.green .svg {
 
 .ui.red.button {
     background-color: var(--color-primary-dark-4) !important; /* red button color (e.g., Confirm Deletion, Remove) */
-    color: var(--color-body) !important; /* text color overrides text color for some buttons (e.g., Transfer Ownership) */
+    /* color: var(--color-body) !important; */ /* reconsidered: text color overrides text color for some buttons (e.g., Transfer Ownership) */
 }
 
 .ui.green.button:hover, .ui.green.button:active {
@@ -45,37 +45,35 @@ span.green .svg {
     background-color: var(--color-primary-dark-6) !important; /* red button hover color */
 }
 
-.ui.active.button:hover, .ui.active.button:active {
-    color: var(--color-body) !important; /* text color overrides text color for some other buttons (e.g., commit Actions) */
+.ui.basic.red.button {
+    background-color: unset !important; /* reset colors in danger zone */
 }
+
+/* reconsidered: .ui.active.button:hover, .ui.active.button:active */
 
 .ui.tabular.stackable.menu.navbar .active.item {
     background-color: var(--color-background) !important; /* make repo tabular menu item background match --color-background */
 }
 
 .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item {
-    background: unset !important; /* do not color secondary menu item, includes stackable ones */
+    background: unset !important; /* do not color secondary menu item, includes stackable ones, related to --color-background */
 }
 
 .ui.vertical.menu {
     background: unset !important; /* make issues, pull requests and milestones menus background match --color-background */
 }
 
-#repo-files-table tr:hover {
-    background-color: var(--color-secondary-alpha-70) !important; /* row highlight color */
-}
-
 .ui.top.attached.pull.tabular.stackable.menu .active.item {
-    background-color: var(--color-background) !important; /* make pull requests top tabular menu item background match --color-background */
+    background-color: var(--color-background) !important; /* make pull requests (sub) tabular menu item background match --color-background */
 }
 
 .ui.top.tabular.menu .active.write.item {
-    background-color: var(--color-background) !important; /* make new release tabular menu item background match --color-background */
+    background-color: var(--color-background) !important; /* make new releases (sub) tabular menu item background match --color-background */
 }
 
-.repository .diff-detail-box {
-    background: unset !important; /* make diff-detail-box background match --color-background */
-}
+/* not needed: .ui.top.attached.tabular.menu .active.item */
+/* reconsidered, re-ordered: #repo-files-table tr:hover */
+/* not needed: .repository .diff-detail-box */
 
 details {
     background-color: var(--color-secondary-light-3); /* make collapsible elements easier to distinguish from main body */
@@ -84,18 +82,12 @@ details {
 }
 
 .js-clone-url {
-    border: 1px solid var(--color-light-border) !important; /* use same border color as surrounding buttons */
+    /* border: 1px solid var(--color-light-border) !important; */ /* reconsidered: use same border color as surrounding buttons */
     border-right: none !important; /* border already there */
 }
 
-.color-preview {
-    display: unset !important; /* remove little color preview square */
-    margin-left: unset !important; /* remove subsequently redundant margin */
-}
-
-.markup table tr:nth-child(2n) {
-    background-color: unset !important; /* remove background color of alternating table rows, since distracting if such rows contain codes */
-}
+/* not needed: .color-preview */
+/* not needed: .markup table tr:nth-child(2n) */
 
 .added-code {
     background: unset !important; /* remove highlight behind some codes */
