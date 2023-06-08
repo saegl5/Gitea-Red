@@ -23,11 +23,11 @@ Soft, lite and dark red theme. Utilizes Gitea's default themes but with some col
 
 Red (Original) \
 <img src='./screenshots/home_lite.png' alt="home lite" width="704"/> \
-<img src='./screenshots/repo_lite.png' alt="repo lite" width="704"/>
+<img src='./screenshots/repo_lite.png' alt="repo lite" width="704"/> \
+(redacted)
 
 Arc-Red \
 <img src='./screenshots/home_dark.png' alt="home dark" width="704"/> \
-(redacted) \
 <img src='./screenshots/repo_dark.png' alt="repo dark" width="704"/> \
 (redacted)
 
