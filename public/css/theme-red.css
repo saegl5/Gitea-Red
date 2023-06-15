@@ -52,23 +52,21 @@ span.green .svg {
 /* reconsidered: .ui.active.button:hover, .ui.active.button:active */
 
 .ui.tabular.stackable.menu.navbar .active.item {
-    background-color: var(--color-background) !important; /* make repo tabular menu item background match --color-background */
+    background-color: var(--color-background) !important; /* make repo tabular menu item background match --color-background (Code, Issues, Pull Requests, etc.) */
 }
+
+/* not needed: .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar.shadow-body .active.item */
 
 .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item {
-    background: unset !important; /* do not color secondary menu item, includes stackable ones, related to --color-background */
-}
-
-.ui.vertical.menu {
-    background: unset !important; /* make issues, pull requests and milestones menus background match --color-background */
+    background: unset !important; /* do not color secondary tabular menu item, related to --color-background (Repositories, Users, Organizations; Profile, Account, Appearance, etc.) */
 }
 
 .ui.top.attached.pull.tabular.stackable.menu .active.item {
-    background-color: var(--color-background) !important; /* make pull requests (sub) tabular menu item background match --color-background */
+    background-color: var(--color-background) !important; /* make pull requests (upper-sub) tabular menu item background match --color-background (Conversation, Commits, Files Changed) */
 }
 
 .ui.top.tabular.menu .active.write.item {
-    background-color: var(--color-background) !important; /* make new releases (sub) tabular menu item background match --color-background */
+    background-color: var(--color-background) !important; /* make issues, pull requests and new releases (lower-sub) tabular menu item background match --color-background (Write, Preview) */
 }
 
 /* not needed: .ui.top.attached.tabular.menu .active.item */

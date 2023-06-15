@@ -55,23 +55,21 @@
     /* reconsidered: .ui.active.button:hover, .ui.active.button:active */
     
     .ui.tabular.stackable.menu.navbar .active.item {
-        background-color: var(--color-background) !important; /* make repo tabular menu item background match --color-background */
+        background-color: var(--color-background) !important; /* make repo tabular menu item background match --color-background (Code, Issues, Pull Requests, etc.) */
     }
+    
+    /* not needed: .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar.shadow-body .active.item */
     
     .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item {
-        background: unset !important; /* do not color secondary menu item, includes stackable ones, related to --color-background */
-    }
-    
-    .ui.vertical.menu {
-        background: unset !important; /* make issues, pull requests and milestones menus background match --color-background */
+        background: unset !important; /* do not color secondary tabular menu item, related to --color-background (Repositories, Users, Organizations; Profile, Account, Appearance, etc.) */
     }
     
     .ui.top.attached.pull.tabular.stackable.menu .active.item {
-        background-color: var(--color-background) !important; /* make pull requests (sub) tabular menu item background match --color-background */
+        background-color: var(--color-background) !important; /* make pull requests (upper-sub) tabular menu item background match --color-background (Conversation, Commits, Files Changed) */
     }
     
     .ui.top.tabular.menu .active.write.item {
-        background-color: var(--color-background) !important; /* make new releases (sub) tabular menu item background match --color-background */
+        background-color: var(--color-background) !important; /* make issues, pull requests and new releases (lower-sub) tabular menu item background match --color-background (Write, Preview) */
     }
     
     /* not needed: .ui.top.attached.tabular.menu .active.item */
@@ -387,24 +385,21 @@
 
     /* reconsidered: .ui.active.button:hover, .ui.active.button:active */
     /* not needed: .ui.tabular.stackable.menu.navbar .active.item */
+
+    .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar.shadow-body .active.item {
+        background: unset !important; /* do not color secondary tabular menu item (Repository, Collaborators, Branches, etc.) */
+    }
+
     /* not needed: .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item */
 
-    .ui.vertical.menu {
-        background: unset !important; /* make issues, pull requests and milestones menus background match --color-background */
-    }
-
-    /* not needed: .ui.top.attached.pull.tabular.stackable.menu .active.item */
-
     .ui.top.attached.pull.tabular.stackable.menu .active.item {
-        background-color: rgb(56, 59, 70) !important; /* make pull requests top tabular menu item background match --color-background, using rgb() to remove bottom border */
+        background-color: rgb(55, 59, 70) !important; /* make pull requests (upper-sub) tabular menu item background match --color-background (Conversation, Commits, Files Changed), using rgb() to remove bottom border */
     }
 
-    .ui.top.tabular.menu .active.write.item {
-        background-color: rgb(56, 59, 70) !important; /* make new releases (sub) tabular menu item background match --color-background, using rgb() to remove bottom border */
-    }
+    /* not needed: .ui.top.tabular.menu .active.write.item */
 
     .ui.top.attached.tabular.menu .active.item {
-        background-color: var(--color-box-body) !important; /* make subscriptions tabular menu item background match --color-box-body */
+        background-color: var(--color-box-body) !important; /* make subscriptions tabular menu item background match --color-box-body (Subscriptions, Watching) */
     }
 
     /* reconsidered, re-ordered: #repo-files-table tr:hover */

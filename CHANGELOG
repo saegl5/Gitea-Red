@@ -35,3 +35,4 @@ May 3, 2023 · `THEME_COLOR_META_TAG = none` no longer required, as of Gitea 1.1
 Jun 4, 2023 · remove highlight behind some codes that obscured them
 Jun 5, 2023 · hide center border more between table header columns, and remove tiny empty spaces between table header corner and table border
 Jun 7, 2023 · rebased theme
+Jun 15, 2023 · fixed theme regressions
