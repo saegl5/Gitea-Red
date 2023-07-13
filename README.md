@@ -18,7 +18,7 @@ Soft, lite and dark red theme. Utilizes Gitea's default themes but with some col
     DEFAULT_THEME = auto-red
     ```
 09. Restart Gitea
-10. Go to user Settings > Appearance > change default theme
+10. Existing users: Go to user Settings > Appearance > change default theme
 
 ## Photos
 
