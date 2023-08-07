@@ -54,7 +54,7 @@
     
     /* reconsidered: .ui.active.button:hover, .ui.active.button:active */
     
-    .ui.tabular.stackable.menu.navbar .active.item {
+    .ui.tabular.menu.navbar .active.item {
         background-color: var(--color-background) !important; /* make repo tabular menu item background match --color-background (Code, Issues, Pull Requests, etc.) */
     }
     
