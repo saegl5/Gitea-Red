@@ -59,8 +59,8 @@
     --color-secondary-alpha-30: #5257674b;
     --color-secondary-alpha-40: #52576766;
     --color-secondary-alpha-50: #52576780;
-    --color-secondary-alpha-60: #52576799;
-    --color-secondary-alpha-70: #f7dede1b !important; /* was #525767b3, fewer contributions heatmap */
+    --color-secondary-alpha-60: #52576799; /* new fewer contributions heatmap */
+    --color-secondary-alpha-70: #525767b3; /* old fewer contributions heatmap */
     --color-secondary-alpha-80: #525767cc;
     --color-secondary-alpha-90: #525767e1;
     --color-secondary-button: var(--color-secondary-dark-4);
