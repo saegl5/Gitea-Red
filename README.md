@@ -1,6 +1,6 @@
 # Gitea-Red
 
-Soft, lite and dark red theme. Utilizes Gitea's default themes but with some colors and images from the Gitea-Red-Silver fork.
+~~Soft~~, Lite and dark red theme. Utilizes Gitea's default themes but with some colors and images from the Gitea-Red-Silver fork.
 
 ## Directions
 
