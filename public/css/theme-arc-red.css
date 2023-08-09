@@ -9,19 +9,19 @@
 
 :root {
     --is-dark-theme: true;
-    --color-primary: #e6051f !important; /* was #87ab63, greater contributions heatmap, primary email address label, Regenerate Scratch Token, and more (below) */
+    --color-primary: #e6051f !important; /* was #87ab63, moderate contributions heatmap, primary email address label, Regenerate Scratch Token, and more (below) */
     --color-primary-contrast: #ffffff;
     --color-primary-dark-1: #93b373;
     --color-primary-dark-2: #c40319 !important; /* was #9fbc82, greater contributions heatmap and more (below) */
-    --color-primary-dark-3: #b00317 !important; /* was #abc492, dropdown actions button */
-    --color-primary-dark-4: #a10315 !important; /* was #b7cda1, red buttons and greater contributions heatmap */
+    --color-primary-dark-3: #abc492 !important; /* reconsidered */
+    --color-primary-dark-4: #a10315 !important; /* was #b7cda1, red buttons and greatest contributions heatmap */
     --color-primary-dark-5: #cfddc1;
     --color-primary-dark-6: #780310 !important; /* was #e7eee0, red buttons hover */
     --color-primary-dark-7: #f8faf6;
     --color-primary-light-1: #eb142d !important; /* was #7a9e55, selection color */
-    --color-primary-light-2: #e82138 !important; /* was #6c8c4c, greater contributions heatmap */
+    --color-primary-light-2: #e82138 !important; /* was #6c8c4c, fewer contributions heatmap */
     --color-primary-light-3: #5f7b42;
-    --color-primary-light-4: #f04559 !important; /* was #516939, greater contributions heatmap */
+    --color-primary-light-4: #f04559 !important; /* was #516939, fewest contributions heatmap */
     --color-primary-light-5: #364626;
     --color-primary-light-6: #1b2313;
     --color-primary-light-7: #080b06;
@@ -59,8 +59,8 @@
     --color-secondary-alpha-30: #5257674b;
     --color-secondary-alpha-40: #52576766;
     --color-secondary-alpha-50: #52576780;
-    --color-secondary-alpha-60: #52576799; /* new fewer contributions heatmap */
-    --color-secondary-alpha-70: #525767b3; /* old fewer contributions heatmap */
+    --color-secondary-alpha-60: #52576799; /* new no contributions heatmap */
+    --color-secondary-alpha-70: #525767b3; /* old no contributions heatmap */
     --color-secondary-alpha-80: #525767cc;
     --color-secondary-alpha-90: #525767e1;
     --color-secondary-button: var(--color-secondary-dark-4);
@@ -261,7 +261,7 @@
     color: var(--color-primary) !important; /* icons' color on home page */
 }
 
-span.green .svg {
+.text.green {
     color: var(--color-primary) !important; /* ssh/gpg key icon color */
 }
 
@@ -269,13 +269,14 @@ span.green .svg {
     background-color: var(--color-primary) !important; /* "green" button color (e.g., Sign In, Verify), primary buttons use --color-primary */
 }
 
+.ui.green.button:hover, .ui.green.button:active {
+    background-color: var(--color-primary-dark-2) !important; /* "green" button hover color, only this one has active element, primary buttons use --color-primary-dark-2 */
+}
+
+
 .ui.red.button {
     background-color: var(--color-primary-dark-4) !important; /* red button color (e.g., Confirm Deletion, Remove) */
     /* color: var(--color-body) !important; */ /* reconsidered: text color overrides text color for some buttons (e.g., Transfer Ownership) */
-}
-
-.ui.green.button:hover, .ui.green.button:active {
-    background-color: var(--color-primary-dark-2) !important; /* "green" button hover color, only this one has active element, primary buttons use --color-primary-dark-2 */
 }
 
 .ui.red.button:hover {
@@ -288,23 +289,11 @@ span.green .svg {
 
 /* reconsidered: .ui.active.button:hover, .ui.active.button:active */
 /* not needed: .ui.tabular.stackable.menu.navbar .active.item */
-
-.ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar.shadow-body .active.item {
-    background: unset !important; /* do not color secondary tabular menu item (Repository, Collaborators, Branches, etc.) */
-}
-
-/* not needed: .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item */
-
-.ui.top.attached.pull.tabular.stackable.menu .active.item {
-    background-color: rgb(55, 59, 70) !important; /* make pull requests (upper-sub) tabular menu item background match --color-background (Conversation, Commits, Files Changed), using rgb() to remove bottom border */
-}
-
+/* not needed: .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar.shadow-body .active.item */
+/* reconsidered: .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item */
+/* reconsidered: .ui.top.attached.pull.tabular.stackable.menu .active.item */
 /* not needed: .ui.top.tabular.menu .active.write.item */
-
-.ui.top.attached.tabular.menu .active.item {
-    background-color: var(--color-box-body) !important; /* make subscriptions tabular menu item background match --color-box-body (Subscriptions, Watching) */
-}
-
+/* reconsidered: .ui.top.attached.tabular.menu .active.item */
 /* reconsidered, re-ordered: #repo-files-table tr:hover */
 /* not needed: .repository .diff-detail-box */
 
@@ -314,21 +303,10 @@ details {
     padding: .2em .4em; /* same as code blocks */
 }
 
-.js-clone-url {
-    /* border: 1px solid var(--color-light-border) !important; */ /* reconsidered: use same border color as surrounding buttons */
-    border-right: none !important; /* border already there */
-}
-
+/* reconsidered: .js-clone-url */
 /* not needed: .color-preview */
 /* not needed: .markup table tr:nth-child(2n) */
-
-.added-code {
-    background: unset !important; /* remove highlight behind some codes */
-}
-
-.ui.table>thead>tr>th {
-    border-inline: 1px solid var(--color-box-header) !important; /* hide center border more between table header columns */
-}
-
+/* reconsidered: .added-code */
+/* not needed: .ui.table>thead>tr>th */
 /* not needed: .ui.table>thead>tr:first-child>th:first-child */
 /* not needed: .ui.table>thead>tr:first-child>th:last-child */

@@ -1,20 +1,18 @@
 :root {
-    --color-primary: #cd041c !important; /* greater contributions heatmap, primary email address label, Regenerate Scratch Token, and more (below) */
+    --color-primary: #cd041c !important; /* moderate contributions heatmap, primary email address label, Regenerate Scratch Token, and more (below) */
     --color-primary-dark-2: #ab0316 !important; /* greater contributions heatmap and more (below) */
-    --color-primary-dark-3: #960314 !important; /* dropdown actions button */
-    --color-primary-dark-4: #870312 !important; /* red buttons and greater contributions heatmap */
+    /* reconsidered: --color-primary-dark-3 */
+    --color-primary-dark-4: #870312 !important; /* red buttons and greatest contributions heatmap */
     --color-primary-dark-6: #5f020d !important; /* red buttons hover */
     --color-primary-light-1: #d1152b !important; /* selection color */
-    --color-primary-light-2: #ce2236 !important; /* greater contributions heatmap */
-    --color-primary-light-4: #d54455 !important; /* greater contributions heatmap */
-    --color-background: #fcfcfc !important; /* make some elements pop out more (below)  */
-    /* fewer contributions heatmap is okay */
+    --color-primary-light-2: #ce2236 !important; /* fewer contributions heatmap */
+    --color-primary-light-4: #d54455 !important; /* fewest contributions heatmap */
+    /* reconsidered: --color-background */
+    /* no contributions heatmap is okay */
     --fonts-monospace: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace, var(--fonts-emoji) !important; /* replaced "SFMono-Regular" */
 }
 
-.full.height { /* legacy code to fix issue with Dark Reader not displaying the entire page with the same color */
-    background-color: var(--color-background) !important; /* make some elements pop out more (e.g., Sign In box, Two-Factor Authentication boxes, Repositories list, Settings boxes, Search boxes) */
-}
+/* reconsidered: .full.height */
 
 .home a {
     color: var(--color-primary) !important; /* link and link hover color on home page, other links use --color-primary */
@@ -24,7 +22,7 @@
     color: var(--color-primary) !important; /* icons' color on home page */
 }
 
-span.green .svg {
+.text.green {
     color: var(--color-primary) !important; /* ssh/gpg key icon color */
 }
 
@@ -32,13 +30,14 @@ span.green .svg {
     background-color: var(--color-primary) !important; /* "green" button color (e.g., Sign In, Verify), primary buttons use --color-primary */
 }
 
+.ui.green.button:hover, .ui.green.button:active {
+    background-color: var(--color-primary-dark-2) !important; /* "green" button hover color, only this one has active element, primary buttons use --color-primary-dark-2 */
+}
+
+
 .ui.red.button {
     background-color: var(--color-primary-dark-4) !important; /* red button color (e.g., Confirm Deletion, Remove) */
     /* color: var(--color-body) !important; */ /* reconsidered: text color overrides text color for some buttons (e.g., Transfer Ownership) */
-}
-
-.ui.green.button:hover, .ui.green.button:active {
-    background-color: var(--color-primary-dark-2) !important; /* "green" button hover color, only this one has active element, primary buttons use --color-primary-dark-2 */
 }
 
 .ui.red.button:hover {
@@ -49,26 +48,13 @@ span.green .svg {
     background-color: unset !important; /* reset colors in danger zone */
 }
 
+/* not needed: .ui.basic.red.button:hover */
 /* reconsidered: .ui.active.button:hover, .ui.active.button:active */
-
-.ui.tabular.menu.navbar .active.item {
-    background-color: var(--color-background) !important; /* make repo tabular menu item background match --color-background (Code, Issues, Pull Requests, etc.) */
-}
-
+/* reconsidered: .ui.tabular.menu.navbar */
 /* not needed: .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar.shadow-body .active.item */
-
-.ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item {
-    background: unset !important; /* do not color secondary tabular menu item, related to --color-background (Repositories, Users, Organizations; Profile, Account, Appearance, etc.) */
-}
-
-.ui.top.attached.pull.tabular.stackable.menu .active.item {
-    background-color: var(--color-background) !important; /* make pull requests (upper-sub) tabular menu item background match --color-background (Conversation, Commits, Files Changed) */
-}
-
-.ui.top.tabular.menu .active.write.item {
-    background-color: var(--color-background) !important; /* make issues, pull requests and new releases (lower-sub) tabular menu item background match --color-background (Write, Preview) */
-}
-
+/* not needed: .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item */
+/* reconsidered: .ui.top.attached.pull.tabular.stackable.menu .active.item */
+/* reconsidered: .ui.top.tabular.menu .active.write.item */
 /* not needed: .ui.top.attached.tabular.menu .active.item */
 /* reconsidered, re-ordered: #repo-files-table tr:hover */
 /* not needed: .repository .diff-detail-box */
@@ -79,14 +65,7 @@ details {
     padding: .2em .4em; /* same as code blocks */
 }
 
-.js-clone-url {
-    /* border: 1px solid var(--color-light-border) !important; */ /* reconsidered: use same border color as surrounding buttons */
-    border-right: none !important; /* border already there */
-}
-
+/* reconsidered: .js-clone-url */
 /* not needed: .color-preview */
 /* not needed: .markup table tr:nth-child(2n) */
-
-.added-code {
-    background: unset !important; /* remove highlight behind some codes */
-}
+/* reconsidered: .added-code */
