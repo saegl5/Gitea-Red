@@ -27,10 +27,17 @@ Red (Original) \
 <img src='./screenshots/repo_lite.png' alt="repo lite" width="704"/> \
 (redacted)
 
+Stylized collapsible elements: \
+<img src='./screenshots/details_lite.png' alt="details lite" width="200"/>
+
+
 Arc-Red \
 <img src='./screenshots/home_dark.png' alt="home dark" width="704"/> \
 <img src='./screenshots/repo_dark.png' alt="repo dark" width="704"/> \
 (redacted)
+
+Stylized collapsible elements: \
+<img src='./screenshots/details_dark.png' alt="details dark" width="200"/>
 
 > Disable the Dark Reader web browser extension for your website.
 
