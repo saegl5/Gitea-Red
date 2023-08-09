@@ -274,14 +274,14 @@
 }
 
 .ui.basic.green.button {
-    color: var(--color-red) !important; /* reset color as in danger zone */
-    border-color: var(--color-red) !important; /* reset color as in danger zone */
+    color: var(--color-primary) !important; /* reset color as in danger zone */
+    border-color: var(--color-primary) !important; /* reset color as in danger zone */
     background-color: unset !important; /* reset color of reopen issue button as in danger zone */
 }
 
 .ui.basic.green.button:hover {
-    color: var(--color-red-dark-1) !important; /* reset color as in danger zone */
-    border-color: var(--color-red-dark-1) !important; /* reset color as in danger zone */
+    color: var(--color-primary-dark-2) !important; /* reset color as in danger zone */
+    border-color: var(--color-primary-dark-2) !important; /* reset color as in danger zone */
     background-color: unset !important; /* reset color of reopen issue button as in danger zone */
 }
 
