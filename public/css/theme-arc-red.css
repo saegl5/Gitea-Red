@@ -309,7 +309,7 @@
 /* not needed: .repository .diff-detail-box */
 
 details {
-    background-color: var(--color-secondary-light-3); /* make collapsible elements easier to distinguish from main body */
+    background-color: var(--color-secondary-light-2); /* make collapsible elements easier to distinguish from main body */
     border-radius: 4px; /* same as code blocks */
     padding: .2em .4em; /* same as code blocks */
 }
