@@ -1,0 +1,32 @@
+{{/* GITEA SOURCE */}}
+
+<link rel="stylesheet" href="{{AssetUrlPrefix}}/css/index.css?v={{AssetVersion}}">
+{{if .IsSigned}}
+        {{if ne .SignedUser.Theme "gitea"}}
+                <link rel="stylesheet" href="{{AssetUrlPrefix}}/css/theme-{{.SignedUser.Theme | PathEscape}}.css?v={{AssetVersion}}">
+        {{end}}
+{{else if ne DefaultTheme "gitea"}}
+        <link rel="stylesheet" href="{{AssetUrlPrefix}}/css/theme-{{DefaultTheme | PathEscape}}.css?v={{AssetVersion}}">
+{{end}}
+
+{{/* CUSTOM FONTS */}}
+
+{{/* Comic Neue */}}
+{{/* Font source: https://fonts.google.com/specimen/Comic+Neue */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+    :root {
+        --fonts-proportional: "Comic Neue", cursive, -apple-system, "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial !important;
+    }
+</style>
+
+{{/* Comic Mono */}}
+{{/* Font source: https://github.com/dtinth/comic-mono-font */}}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css">
+<style>
+    :root {
+        --fonts-monospace: "Comic Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace, var(--fonts-emoji) !important;
+    }
+</style>

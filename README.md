@@ -5,20 +5,22 @@
 ## Directions
 
 01. Locate your custom directory: Site Administration > Configuration > Custom File Root Path (e.g., /var/lib/gitea/custom)
-02. Verify if a public directory exists within the custom directory
-03. If the public directory exists, make sure it contains two directories: css and img
-04. If the css and img directories do not exist, then create them
-05. To add just the themes (not the red Gitea logos), copy [theme-auto-red.css](./public/css/theme-auto-red.css), [theme-red.css](./public/css/theme-red.css), and [theme-arc-red.css](./public/css/theme-arc-red.css) into the css directory
+02. Verify if a public and templates directory exist within the custom directory
+03. If the public and templates directory exist, make sure the public directory contains two directories: css and img, and make sure the templates directory contains one directory: base
+04. If the css, img and base directories do not exist, then create them
+05. To add just the themes (not the red Gitea logos or Comic fonts), copy [theme-auto-red.css](./public/css/theme-auto-red.css), [theme-red.css](./public/css/theme-red.css), and [theme-arc-red.css](./public/css/theme-arc-red.css) into the css directory
 06. To add the red Gitea logos, backup any existing img directory, and copy all the [logos](./public/img/) into your img directory
-07. Locate your configuration file: Site Administration > Configuration > Configuration File Path (e.g., /etc/gitea/app.ini)
-08. Add to the configuration file:
+07. To add kid-friendly Comic fonts, copy [head_style.tmpl](./templates/base/head_style.tmpl) into the base directory
+08. Locate your configuration file: Site Administration > Configuration > Configuration File Path (e.g., /etc/gitea/app.ini)
+09. Add to the configuration file:
     ```ini
     [ui]
     THEMES = auto,gitea,arc-green,auto-red,red,arc-red
     DEFAULT_THEME = auto-red
     ```
-09. Restart Gitea
-10. Existing users: Go to user Settings > Appearance > change default theme
+10. Restart Gitea
+11. Existing users: Go to user Settings > Appearance > change default theme
+> Comic fonts (if added) will display automatically.
 
 ## Photos
 
@@ -27,17 +29,32 @@ Red (Original) \
 <img src='./screenshots/repo_lite.png' alt="repo lite" width="704"/> \
 (redacted)
 
-Stylized collapsible elements: \
-<img src='./screenshots/details_lite.png' alt="details lite" width="200"/>
-
+<table>
+    <tr>
+        <td>Stylized collapsible elements:</td>
+        <td>Comic fonts:</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top"><img src='./screenshots/details_lite.png' alt="details lite" width="200"/></td>
+        <td style="vertical-align: top"><img src='./screenshots/comic_fonts_lite.png' alt="comic fonts lite" width="250"/></td>
+    </tr>
+</table>
 
 Arc-Red \
 <img src='./screenshots/home_dark.png' alt="home dark" width="704"/> \
 <img src='./screenshots/repo_dark.png' alt="repo dark" width="704"/> \
 (redacted)
 
-Stylized collapsible elements: \
-<img src='./screenshots/details_dark.png' alt="details dark" width="200"/>
+<table>
+    <tr>
+        <td>Stylized collapsible elements:</td>
+        <td>Comic fonts:</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top"><img src='./screenshots/details_dark.png' alt="details dark" width="200"/></td>
+        <td style="vertical-align: top"><img src='./screenshots/comic_fonts_dark.png' alt="comic fonts dark" width="250"/></td>
+    </tr>
+</table>
 
 > Disable the Dark Reader web browser extension for your website.
 
