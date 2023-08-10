@@ -8,7 +8,7 @@
 02. Verify if a public and templates directory exist within the custom directory
 03. If the public and templates directory exist, make sure the public directory contains two directories: css and img, and make sure the templates directory contains one directory: base
 04. If the css, img and base directories do not exist, then create them
-05. To add just the themes (not the red Gitea logos or Comic fonts), copy [theme-auto-red.css](./public/css/theme-auto-red.css), [theme-red.css](./public/css/theme-red.css), and [theme-arc-red.css](./public/css/theme-arc-red.css) into the css directory
+05. To add just the themes (not the red Gitea logos or kid-friendly Comic fonts), copy [theme-auto-red.css](./public/css/theme-auto-red.css), [theme-red.css](./public/css/theme-red.css), and [theme-arc-red.css](./public/css/theme-arc-red.css) into the css directory
 06. To add the red Gitea logos, backup any existing img directory, and copy all the [logos](./public/img/) into your img directory
 07. To add kid-friendly Comic fonts, copy [head_style.tmpl](./templates/base/head_style.tmpl) into the base directory
 08. Locate your configuration file: Site Administration > Configuration > Configuration File Path (e.g., /etc/gitea/app.ini)
