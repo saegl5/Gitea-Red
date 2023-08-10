@@ -10,7 +10,7 @@
 04. If the css, img and base directories do not exist, then create them
 05. To add just the themes (not the red Gitea logos or kid-friendly Comic fonts), copy [theme-auto-red.css](./public/css/theme-auto-red.css), [theme-red.css](./public/css/theme-red.css), and [theme-arc-red.css](./public/css/theme-arc-red.css) into the css directory
 06. To add the red Gitea logos, backup any existing img directory, and copy all the [logos](./public/img/) into your img directory
-07. To add kid-friendly Comic fonts, copy [head_style.tmpl](./templates/base/head_style.tmpl) into the base directory
+07. To add the kid-friendly Comic fonts, copy [head_style.tmpl](./templates/base/head_style.tmpl) into the base directory
 08. Locate your configuration file: Site Administration > Configuration > Configuration File Path (e.g., /etc/gitea/app.ini)
 09. Add to the configuration file:
     ```ini
@@ -31,8 +31,8 @@ Red (Original) \
 
 <table>
     <tr>
-        <td>Stylized collapsible elements:</td>
-        <td>Comic fonts:</td>
+        <td>Stylized collapsible elements</td>
+        <td>Comic fonts</td>
     </tr>
     <tr>
         <td style="vertical-align: top"><img src='./screenshots/details_lite.png' alt="details lite" width="200"/></td>
@@ -47,8 +47,8 @@ Arc-Red \
 
 <table>
     <tr>
-        <td>Stylized collapsible elements:</td>
-        <td>Comic fonts:</td>
+        <td>Stylized collapsible elements</td>
+        <td>Comic fonts</td>
     </tr>
     <tr>
         <td style="vertical-align: top"><img src='./screenshots/details_dark.png' alt="details dark" width="200"/></td>
