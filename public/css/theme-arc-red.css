@@ -224,7 +224,7 @@
     --color-active-line: #534d1b;
     accent-color: var(--color-accent);
     color-scheme: dark;
-    --fonts-monospace: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace, var(--fonts-emoji) !important;
+    /* no longer needed: --fonts-monospace */
 }
 
 /* invert emojis that are hard to read otherwise */
