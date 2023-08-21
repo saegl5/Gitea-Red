@@ -1,7 +1,5 @@
-/* root and emoji source: https://github.com/go-gitea/gitea/blob/main/web_src/css/themes/theme-arc-green.css */
-/* some root colors and one alpha are customized */
+/* some root colors are customized */
 /* custom colors are slightly brighter */
-/* custom alpha is slightly more transparent */
 
 /* @import "../chroma/base.css"; */
 /* @import "../chroma/dark.css"; */
@@ -224,7 +222,6 @@
     --color-active-line: #534d1b;
     accent-color: var(--color-accent);
     color-scheme: dark;
-    /* no longer needed: --fonts-monospace */
 }
 
 /* invert emojis that are hard to read otherwise */
@@ -250,8 +247,6 @@
 .emoji[aria-label="musical notes"] {
     filter: invert(100%) hue-rotate(180deg);
 }
-
-/* not needed: .full.height */
 
 .home a {
     color: var(--color-primary) !important; /* link and link hover color on home page, other links use --color-primary */
@@ -287,7 +282,6 @@
 
 .ui.red.button {
     background-color: var(--color-primary-dark-4) !important; /* red button color (e.g., Confirm Deletion, Remove) */
-    /* color: var(--color-body) !important; */ /* reconsidered: text color overrides text color for some buttons (e.g., Transfer Ownership) */
 }
 
 .ui.red.button:hover {
@@ -298,26 +292,8 @@
     background-color: unset !important; /* reset color in danger zone */
 }
 
-/* reconsidered: .ui.active.button:hover, .ui.active.button:active */
-/* not needed: .ui.tabular.stackable.menu.navbar .active.item */
-/* not needed: .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar.shadow-body .active.item */
-/* reconsidered: .ui.secondary.pointing.tabular.top.attached.borderless.menu.stackable.new-menu.navbar .active.item */
-/* reconsidered: .ui.top.attached.pull.tabular.stackable.menu .active.item */
-/* not needed: .ui.top.tabular.menu .active.write.item */
-/* reconsidered: .ui.top.attached.tabular.menu .active.item */
-/* reconsidered, re-ordered: #repo-files-table tr:hover */
-/* not needed: .repository .diff-detail-box */
-
 details {
     background-color: var(--color-secondary-light-2); /* make collapsible elements easier to distinguish from main body */
     border-radius: 4px; /* same as code blocks */
     padding: .2em .4em; /* same as code blocks */
 }
-
-/* reconsidered: .js-clone-url */
-/* not needed: .color-preview */
-/* not needed: .markup table tr:nth-child(2n) */
-/* reconsidered: .added-code */
-/* not needed: .ui.table>thead>tr>th */
-/* not needed: .ui.table>thead>tr:first-child>th:first-child */
-/* not needed: .ui.table>thead>tr:first-child>th:last-child */
