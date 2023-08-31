@@ -6,6 +6,7 @@
     --color-primary-light-1: #d1152b !important; /* selection color */
     --color-primary-light-2: #ce2236 !important; /* fewer contributions heatmap */
     --color-primary-light-4: #d54455 !important; /* fewest contributions heatmap */
+    --color-primary-hover: var(--color-primary-dark-2) !important; /* send account recovery email, save, search, clone buttons */
     /* no contributions heatmap is okay */
 }
 
@@ -25,8 +26,8 @@
     background-color: var(--color-primary) !important; /* "green" button color (e.g., Sign In, Verify), primary buttons use --color-primary */
 }
 
-.ui.green.button:hover, .ui.green.button:active {
-    background-color: var(--color-primary-dark-2) !important; /* "green" button hover color, only this one has active element, primary buttons use --color-primary-dark-2 */
+.ui.green.button:hover {
+    background-color: var(--color-primary-dark-2) !important; /* "green" button hover color, primary buttons use --color-primary-dark-2 */
 }
 
 .ui.basic.green.button {

@@ -32,7 +32,7 @@
     --color-primary-alpha-70: #87ab63b3;
     --color-primary-alpha-80: #87ab63cc;
     --color-primary-alpha-90: #87ab63e1;
-    --color-primary-hover: var(--color-primary-light-1);
+    --color-primary-hover: var(--color-primary-dark-2) !important; /* was var(--color-primary-light-1), send account recovery email, save, search, clone buttons */
     --color-primary-active: var(--color-primary-light-2);
     --color-secondary: #525767;
     --color-secondary-dark-1: #5c6374;
@@ -264,8 +264,8 @@
     background-color: var(--color-primary) !important; /* "green" button color (e.g., Sign In, Verify), primary buttons use --color-primary */
 }
 
-.ui.green.button:hover, .ui.green.button:active {
-    background-color: var(--color-primary-dark-2) !important; /* "green" button hover color, only this one has active element, primary buttons use --color-primary-dark-2 */
+.ui.green.button:hover {
+    background-color: var(--color-primary-dark-2) !important; /* "green" button hover color, primary buttons use --color-primary-dark-2 */
 }
 
 .ui.basic.green.button {
