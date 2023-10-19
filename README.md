@@ -60,6 +60,6 @@ Arc-Red \
 
 ## Known Issue
 
-- [x] Checkmark is not displayed, when fork a repository and select "Make Repository Private." I submitted an issue: [https://github.com/go-gitea/gitea/issues/25076](https://github.com/go-gitea/gitea/issues/25076) Now, a fix is coming: [pull request #25573](https://github.com/go-gitea/gitea/pull/25573). Fixed in [Gitea 1.20.0](https://github.com/go-gitea/gitea/releases/tag/v1.20.0)
+- [x] Checkmark is not displayed, when fork a repository and select "Make Repository Private." ~~I submitted an issue: [https://github.com/go-gitea/gitea/issues/25076](https://github.com/go-gitea/gitea/issues/25076) Now, a fix is coming: [pull request #25573](https://github.com/go-gitea/gitea/pull/25573).~~ Fixed in [Gitea 1.20.0](https://github.com/go-gitea/gitea/releases/tag/v1.20.0)
 
-Theme coded with &#9829; in VSCodium
+Theme coded with &#9829; in Visual Studio Code
