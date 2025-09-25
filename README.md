@@ -1,5 +1,7 @@
 # Gitea-Red
 
+_(Update: I no longer utilize Gitea as my daily driver. However, if anyone encounters any problem with the theme, open an issue and I'll be happy to take a look. I'll also continue to accept pull requests.)_
+
 ~~Soft~~, Lite and dark red theme. Utilizes Gitea's default themes but with some colors and images from the Gitea-Red-Silver fork.
 
 **Theme featured in [Awesome Gitea](https://gitea.com/gitea/awesome-gitea/)!** :tada:
