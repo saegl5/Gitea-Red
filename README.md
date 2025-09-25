@@ -8,6 +8,10 @@ _(Update: I no longer utilize Gitea as my daily driver. However, if anyone encou
 
 <!-- emoji displayed only online -->
 
+## Prerequisites
+
+[Self-hosted instance of Gitea](https://about.gitea.com/products/gitea/)
+
 ## Directions
 
 1.  Locate your custom directory: Site Administration > Configuration > Custom File Root Path (e.g., /var/lib/gitea/custom)
