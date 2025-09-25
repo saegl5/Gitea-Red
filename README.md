@@ -4,6 +4,8 @@
 
 **Theme featured in [Awesome Gitea](https://gitea.com/gitea/awesome-gitea/)!** :tada:
 
+<!-- emoji displayed only online -->
+
 ## Directions
 
 1.  Locate your custom directory: Site Administration > Configuration > Custom File Root Path (e.g., /var/lib/gitea/custom)
