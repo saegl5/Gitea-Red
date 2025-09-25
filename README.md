@@ -8,7 +8,7 @@ _(Update: I no longer utilize Gitea as my daily driver. However, if anyone encou
 
 <!-- emoji displayed only online -->
 
-## Prerequisites
+## Prerequisite
 
 [Self-hosted instance of Gitea](https://about.gitea.com/products/gitea/)
 
